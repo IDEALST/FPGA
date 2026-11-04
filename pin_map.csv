@@ -1,0 +1,31 @@
+信号,位宽,方向,电平标准,管脚(Bank),板上网络,来源图纸
+clk_50m,1,输入,LVCMOS33,Y18 (Bank14 MRCC),FPGA_GCLK1 / 50M_Active,01_7A35T_FPGA_IO
+rst_n,1,输入,LVCMOS33,F15 (Bank16),S0,10_Switch_Key_Led
+key[0],1,输入,LVCMOS33,A20 (Bank16),S1,10_Switch_Key_Led
+key[1],1,输入,LVCMOS33,B20 (Bank16),S2,10_Switch_Key_Led
+cam_pclk,1,输入,LVCMOS33,B1 (Bank35),CMOS_PCLK,02_7A35T_FPGA_IO_ConfigBank
+cam_href,1,输入,LVCMOS33,A1 (Bank35),CMOS_HREF,02_7A35T_FPGA_IO_ConfigBank
+cam_vsync,1,输入,LVCMOS33,B2 (Bank35),CMOS_VSYNC,02_7A35T_FPGA_IO_ConfigBank
+cam_data[0],1,输入,LVCMOS33,J2 (Bank35),CMOS_D0,02_7A35T_FPGA_IO_ConfigBank
+cam_data[1],1,输入,LVCMOS33,J1 (Bank35),CMOS_D1,02_7A35T_FPGA_IO_ConfigBank
+cam_data[2],1,输入,LVCMOS33,G1 (Bank35),CMOS_D2,02_7A35T_FPGA_IO_ConfigBank
+cam_data[3],1,输入,LVCMOS33,H2 (Bank35),CMOS_D3,02_7A35T_FPGA_IO_ConfigBank
+cam_data[4],1,输入,LVCMOS33,F1 (Bank35),CMOS_D4,02_7A35T_FPGA_IO_ConfigBank
+cam_data[5],1,输入,LVCMOS33,G2 (Bank35),CMOS_D5,02_7A35T_FPGA_IO_ConfigBank
+cam_data[6],1,输入,LVCMOS33,D1 (Bank35),CMOS_D6,02_7A35T_FPGA_IO_ConfigBank
+cam_data[7],1,输入,LVCMOS33,E1 (Bank35),CMOS_D7,02_7A35T_FPGA_IO_ConfigBank
+cam_xclk,1,输出,LVCMOS33,M17 (Bank14),CMOS_XCLK,01_7A35T_FPGA_IO
+cam_rst_n,1,输出,LVCMOS33,N20 (Bank14),CMOS_RST,01_7A35T_FPGA_IO
+sccb_scl,1,双向,LVCMOS33,M20 (Bank14),CMOS_SCLK,01_7A35T_FPGA_IO
+sccb_sda,1,双向,LVCMOS33,L18 (Bank14),CMOS_SDA,01_7A35T_FPGA_IO
+tmds_d_p[0],1,输出,TMDS_33,E2 (Bank35),HDMI2_D0_P（蓝）,08_HDMI2
+tmds_d_n[0],1,输出,TMDS_33,D2 (Bank35),HDMI2_D0_N,08_HDMI2
+tmds_d_p[1],1,输出,TMDS_33,F3 (Bank35),HDMI2_D1_P（绿）,08_HDMI2
+tmds_d_n[1],1,输出,TMDS_33,E3 (Bank35),HDMI2_D1_N,08_HDMI2
+tmds_d_p[2],1,输出,TMDS_33,H3 (Bank35),HDMI2_D2_P（红）,08_HDMI2
+tmds_d_n[2],1,输出,TMDS_33,G3 (Bank35),HDMI2_D2_N,08_HDMI2
+tmds_clk_p,1,输出,TMDS_33,H4 (Bank35),HDMI2_CLK_P,08_HDMI2
+tmds_clk_n,1,输出,TMDS_33,G4 (Bank35),HDMI2_CLK_N,08_HDMI2
+uart_tx,1,输出,LVCMOS33,M15 (Bank14),FPGA_UART_TX,01_7A35T_FPGA_IO
+led_locked,1,输出,LVCMOS33,M22 (Bank15),LED0,01_7A35T_FPGA_IO
+led_frame,1,输出,LVCMOS33,N22 (Bank15),LED1,01_7A35T_FPGA_IO
